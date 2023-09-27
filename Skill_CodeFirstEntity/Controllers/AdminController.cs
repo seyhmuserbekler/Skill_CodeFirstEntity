@@ -33,7 +33,7 @@ namespace Skill_CodeFirstEntity.Controllers
         
         {
 
-        db.YETENEKLERS.Add(y);
+        db.YETENEKLERS.Add(y);  // butona tıklanınca listeleme
             db.SaveChanges();
             return View();
         }
